@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="icon" href="1_img/registration.jpg">
+</head>
+<body>
+    <center>
+        <h1>Registration Form</h1>
+        <table>
+            <form>
+                <tr>
+                    <td>Name</td> <td><input type="text" autocomplete="name" placeholder="Enter your name" required></td>
+                </tr> 
+                <tr>
+                    <td>Username</td> <td><input type="text" minlength="10" maxlength="15" placeholder="Enter your username" required></td>
+                </tr>
+                <tr>
+                    <td>Email Address</td> <td><input type="email" autocomplete="email" placeholder="Enter your email" required></td>
+                </tr>
+                <tr>
+                    <td>Phone Number</td> <td><input type="tel" autocomplete="tel" pattern="[0-9]{10}" placeholder="Enter your Number" required></td>
+                </tr>
+                <tr>
+                    <td>Password</td> <td><input type="password" minlength="8" autocomplete="new-password" placeholder="Enter your password" required></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password</td> <td><input type="password" autocomplete="new-password" placeholder="Confirm you password" required></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td> <td><input type="date" placeholder="Enter your DOB" required></td>
+                </tr>
+                <tr>
+                    <td>Gender</td> 
+                    <td><input type="radio" name="Gender" required> Male
+                        <input type="radio" name="Gender" required> Female</td>
+                </tr>
+                <tr>
+                    <td>City</td> 
+                    <td>
+                        <select>
+                            <option>Chennai</option>
+                            <option>Coimbatore</option>
+                            <option>Banglore</option>
+                            <option>Pune</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" required> Terms & Conditions</td>
+                </tr> 
+                <tr>
+                    <td><input type="reset"></td> <td><input type="submit"></td> 
+                </tr>
+            </form>
+        </table>
+        <p>If you already have an account <a href="1_LoginForm.html">Login</a> </p>
+    </center>
+</body>
+</html>
